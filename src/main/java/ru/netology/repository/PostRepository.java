@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicLong;
 
-@Repository
+
 public class PostRepository {
 
   List<Post> posts = new CopyOnWriteArrayList<>();
